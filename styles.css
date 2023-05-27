@@ -30,11 +30,6 @@ header{
     font-size: large;
 }
 
-main{
-    justify-content: center;
-    text-align: center;
-}
-
 #bottom-left-logo{
     margin-top: 25px;
     border-radius: 50%;
@@ -51,12 +46,30 @@ a{
     margin-top: 60px;
 }
 
+#company-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
 footer{
     text-align: center;
 }
 
+#address{
+    margin-top: -10px;
+}
+#contact{
+    margin: 0 0 20px 0px;
+}
+
 #contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
     list-style: none;
+    margin-top: -40px
 }
 
 .contact-icon{
@@ -66,7 +79,6 @@ footer{
 
 .contact-item{
     display: inline;
-    font-size: large;
 }
 
 .contact-container{
