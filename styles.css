@@ -67,7 +67,7 @@ footer{
 #contact-info{
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
+    margin-left: 40px;
     list-style: none;
     margin-top: -40px
 }
